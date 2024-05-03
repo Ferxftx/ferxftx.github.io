@@ -1,0 +1,65 @@
+/* CSS del segundo código con el estilo del botón del primer código */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('../img/fondo2.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  margin-top: 50px;
+  width: auto; /* Ancho automático */
+  height: 300px; /* Altura fija */
+  margin: 0 auto; /* Centrar el contenedor horizontalmente */
+  display: flex; /* Usamos flexbox para centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+/* Estilo del botón */
+.game-option {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 0.3em solid goldenrod; /* Propiedad del primer código */
+  border-radius: 0.5em; /* Propiedad del primer código */
+  width: 200px; /* Ancho fijo */
+  height: 200px; /* Altura fija */
+  text-transform: uppercase; /* Propiedad del primer código */
+  font-weight: bold; /* Propiedad del primer código */
+  font-family: sans-serif; /* Propiedad del primer código */
+  letter-spacing: 0.1em; /* Propiedad del primer código */
+  text-align: center; /* Propiedad del primer código */
+  position: relative; /* Propiedad del primer código */
+  overflow: hidden; /* Propiedad del primer código */
+  z-index: 1; /* Propiedad del primer código */
+  cursor: pointer; /* Nueva propiedad */
+  transition: all 0.3s ease; /* Propiedad del primer código */
+  position: relative; /* Agregamos esta propiedad */
+}
+
+
+/* Estilo del efecto hover */
+.game-option:hover span {
+  transform: translateY(0) scale(2);
+}
+
+/* Estilo del span dentro del botón */
+.game-option span {
+  position: absolute;
+  width: 100%; /* Cambiamos el ancho al 100% */
+  height: 100%; /* Cambiamos el alto al 100% */
+  background-color: goldenrod; /* Propiedad del primer código */
+  transform: translateY(150%);
+  border-radius: 50%;
+  transition: all 0.3s ease; /* Agregamos esta propiedad */
+  z-index: -1;
+  top: 0; /* Ajustamos la posición */
+  left: 0; /* Ajustamos la posición */
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selecciona un Juego</title>
+  <link rel="stylesheet" href="css/estilos_pag1.css">
+</head>
+<body>
+  <h1>¡Bienvenido, <span id="nombreUsuario"></span>!</h1>
+  <h2>Selecciona un Juego</h2>
+  <div class="container">
+    <div class="game-option" onclick="window.location.href='memorama.html'">
+      <h2>Memorama Matemático</h2>
+      <p>Juega a emparejar operaciones matemáticas con sus resultados.</p>
+      <!-- Agregando span para el efecto hover -->
+      <span></span>
+    </div>
+    <div class="game-option" onclick="window.location.href='encuentra_numero.html'">
+      <h2>Encuentra el Número</h2>
+      <p>Demuestra tus habilidades encontrando números ocultos en imágenes.</p>
+      <!-- Agregando span para el efecto hover -->
+      <span></span>
+    </div>
+  </div>
+
+  <script src="js/script_pag1.js"></script>
+</body>
+</html>

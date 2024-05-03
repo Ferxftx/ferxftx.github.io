@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra el número que falta</title>
+    <link rel="stylesheet" href="css/estilo_numero.css">
+</head>
+<body>
+    <div class="container">
+        <div class="operation">
+            <div class="box">5</div>
+            <div class="box">+</div>
+            <input type="number" id="missing_1" placeholder="?">
+            <div class="box">=</div>
+            <div class="box">8</div>
+        </div>
+        
+        <div class="operation">
+            <div class="box1">10</div>
+            <div class="box1">-</div>
+            <input type="number" id="missing_2" placeholder="?">
+            <div class="box1">=</div>
+            <div class="box1">6</div>
+        </div>
+
+        <div class="operation">
+            <div class="box2">3</div>
+            <div class="box2">x</div>
+            <input type="number" id="missing_3" placeholder="?">
+            <div class="box2">=</div>
+            <div class="box2">6</div>
+        </div>
+
+        <div class="operation">
+            <input type="number" id="missing_4" placeholder="?">
+            <div class="box3">x</div>
+            <div class="box3">2</div>
+            <div class="box3">=</div>
+            <div class="box3">30</div>
+        </div>
+
+        <div class="operation">
+            <div class="box4">25</div>
+            <div class="box4">-</div>
+            <input type="number" id="missing_5" placeholder="?">
+            <div class="box4">=</div>
+            <div class="box4">16</div>
+        </div>
+
+        <div class="operation">
+            <div class="box5">7</div>
+            <div class="box5">x</div>
+            <div class="box5">9</div>
+            <div class="box5">=</div>
+            <input type="number" id="missing_6" placeholder="?">
+        </div>
+
+        <div class="operation">
+            <div class="box6">90</div>
+            <div class="box6">-</div>
+            <input type="number" id="missing_7" placeholder="?">
+            <div class="box6">=</div>
+            <div class="box6">66</div>
+        </div>
+
+        <div class="operation">
+            <div class="box7">24</div>
+            <div class="box7">+</div>
+            <input type="number" id="missing_8" placeholder="?">
+            <div class="box7">=</div>
+            <div class="box7">87</div>
+        </div>
+
+        <button onclick="comprobarNumeros()">Comprobar</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="js/script_numeros.js"></script>
+</body>
+</html>

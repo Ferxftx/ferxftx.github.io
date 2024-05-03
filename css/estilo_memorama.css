@@ -1,0 +1,44 @@
+#juego {
+    opacity: 0.8;
+    width: 800px;
+    height: 625px;
+    position: relative;
+    left: 250px;
+}
+
+table {
+    width: 60%;
+    height: 60%;
+}
+
+td {
+    width: 25%;
+    height: 25%;
+    background-color: rgb(255, 120, 237);
+    border: 3px solid rgb(255, 136, 225);
+    border-radius: 5px;
+  
+}
+
+.letra {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+}
+
+.centrar {
+position: relative;
+top: -230px;
+left: 390px;
+}
+
+.getElementById{
+    position: relative;
+    left: 150px;
+    }
