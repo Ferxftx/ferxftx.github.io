@@ -1,3 +1,8 @@
+body{
+    background-image: url('../img/brillitos.gif');
+}
+
+
 .container {
     display: flex;
     flex-wrap: wrap;
