@@ -55,9 +55,9 @@ function comprobarNumeros() {
     else errores++;
 
     if (aciertos > errores) {
-        mostrarImagen("imagen1.gif");
+        mostrarImagen("img/imagen1.gif");
     } else {
-        mostrarImagen("imagen2.gif");
+        mostrarImagen("img/imagen2.gif");
     }
 }
 
